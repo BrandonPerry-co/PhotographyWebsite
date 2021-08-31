@@ -521,18 +521,6 @@ footer span a:hover{
         display: block;
         z-index: 999;
     }
-    /*
-    .navbar .menu{
-        position: fixed;
-        height: 100vh;
-        width: 100%;
-        left: -100%;
-        top: 0;
-        background: #111;
-        text-align: center;
-        padding-top: 80px;
-        transition: all 0.3s ease;
-    }*/
     .navbar .menu.active{
         left: 0;
     }
@@ -620,20 +608,6 @@ footer span a:hover{
         margin: 0;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*-----About ME page--------*/
 #about-me{
     min-height: 100vh;
@@ -646,9 +620,4 @@ footer span a:hover{
     background: url(./cover-image/negative-space.jpg);
     height: 200px;
     max-width: 200px;
-}
-
-@media (max-width: 700px)
-nav{
-    
 }
